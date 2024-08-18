@@ -1,0 +1,97 @@
+        .navbar {
+            background-color: #f7f7f7;
+        }
+
+        .container-fluid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            background-color: #f7f7f7;
+        }
+
+        .navbar-collapse {
+            grid-column: span 8;
+            margin-left: 50px;
+        }
+        .nav-item>a{
+            color: black;
+        }
+        .nav-item>a:hover{
+            background-color: black;
+            color: white;
+        }
+
+        .location {
+            grid-column: span 4;
+            margin-right: 25px;
+            margin-bottom: 30px;
+        }
+
+        .location>span:hover {
+            color: #5b5959;
+            cursor: pointer;
+        }
+
+        .navbar-nav {
+            margin-top: 20px;
+            color: black;
+        }
+
+
+        .card-title,.card-subtitle {
+            font-size: x-large;
+            font-weight: 500;
+        }
+
+        .card-text {
+            font-weight: 500;
+            font-style: italic;
+
+        }
+
+        .text-body {
+            text-decoration: none;
+            font-size: large;
+        }
+
+        .main-center>.main-item>.item-title {
+            color: #2A8A15;
+            text-decoration: none;
+
+        }
+        .main-center>.main-item>.item-title:hover{
+            background-color: #2A8A15;
+            color: white;
+        }
+        .tab2>span{
+            margin-left: 5px;
+        }
+
+        .go:hover{
+            text-decoration: underline;
+            transform: translateY(-1.5px);
+        }
+        
+        .hver{
+            color: black;
+            text-decoration: none;
+        }
+        .hver:hover{
+            color: #5b5959;
+            transform: translateY(-1.5px);
+        }
+
+        .tab3>span{
+            font-size: small;
+        }
+
+        .product-image{
+            transition: all 1s;
+            margin: 10px 0px;
+        }
+        .product-image:hover{
+            cursor: pointer;
+            opacity: 0.8;
+            transform: all 1s;
+            -webkit-transform: scale(1.05); 
+            transform: scale(1.05);
+        }

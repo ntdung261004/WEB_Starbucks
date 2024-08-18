@@ -1,0 +1,127 @@
+        .navbar {
+            background-color: #f7f7f7;
+        }
+
+        .container-fluid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            background-color: #f7f7f7;
+        }
+
+        .navbar-collapse {
+            grid-column: span 8;
+            margin-left: 50px;
+        }
+
+        .nav-item>a{
+            color: black;
+        }
+        .nav-item>a:hover{
+            background-color: black;
+            color: white;
+        }
+
+        .location {
+            grid-column: span 4;
+            margin-right: 25px;
+            margin-bottom: 30px;
+        }
+
+        .location>span:hover {
+            color: #5b5959;
+            cursor: pointer;
+        }
+
+        .navbar-nav {
+            margin-top: 20px;
+            color: black;
+        }
+
+        .main-top>img {
+            display: grid;
+            width: 100%;
+            grid-column: span 12;
+            height: 600px;
+        }
+
+        .main-product>.product-1 {
+            display: grid;
+            grid-column: span 10;
+            grid-row: 300px;
+            margin-left: 350px;
+            border: none;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+
+
+        .card-title {
+            font-size: x-large;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .card-text {
+            font-weight: 500;
+            font-style: italic;
+
+        }
+
+        .card-text>a {
+            color: black;
+            text-decoration: solid;
+            font-weight: 500;
+            font-style: italic;
+        }
+
+        .text-body {
+            text-decoration: none;
+            font-size: large;
+        }
+
+        .internet{
+            margin-left: 55px;
+        }
+        .tab2>span{
+            margin-left: 5px;
+        }
+
+        .trangdau {
+            margin-left: -200px;
+        
+        }
+        .trangdau1{
+            margin-left: 200px;
+        }
+
+        .main-bottom{
+            grid-column: span 12;
+            height: 400px;
+            background-image: url(HinhAnh/bg-how_to_brew-mobile.jpg);
+        }
+
+        .tab3>span{
+            font-size: small;
+        }
+        .go:hover{
+            text-decoration: underline;
+            transform: translateY(-1.5px);
+        }
+        
+        .hver{
+            color: black;
+            text-decoration: none;
+        }
+        .hver:hover{
+            color: #5b5959;
+            transform: translateY(-1.5px);
+        }
+        .product-image{
+            transition: all 1s;
+        }
+        .product-image:hover{
+            cursor: pointer;
+            -webkit-transform: scale(1.05); 
+            transform: scale(1.05);
+        }
